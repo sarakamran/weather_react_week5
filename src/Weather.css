@@ -48,11 +48,10 @@
 
 /*5555555555*/
 
-.weather-temperature img {
+.weather-temperature canvas {
     margin-right: 5px;
-    margin-top: -32px;
-    height: 64px;
-    width: 64px;
+    margin-top: 10px;
+    margin-bottom: -10px;
 }
 
 .weather-temperature strong {
@@ -61,6 +60,7 @@
     line-height: 1;
     font-weight: 400;
 }
+
 .weather-temperature .units {
     position: relative;
     font-size: 16px;
